@@ -10,6 +10,10 @@ public class Main {
         Rectangle cr = new Rectangle(3,3);
         System.out.println(cr.toString());
 
+        //Employee
+        Employee ce = new Employee();
+        System.out.print(ce.toString());
+
 
     }
 
