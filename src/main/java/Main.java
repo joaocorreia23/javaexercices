@@ -7,6 +7,9 @@ public class Main {
         System.out.println(cl.toString());
 
         //Rectangle
+        Rectangle cr = new Rectangle(3,3);
+        System.out.println(cr.toString());
+
 
     }
 
