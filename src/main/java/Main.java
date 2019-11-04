@@ -12,9 +12,11 @@ public class Main {
 
         //Employee
         Employee ce = new Employee();
-        System.out.print(ce.toString());
+        System.out.println(ce.toString());
 
-
+        //Account
+        Account ca = new Account();
+        System.out.println(ca.toString());
     }
 
 }

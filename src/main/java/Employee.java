@@ -54,13 +54,13 @@ public class Employee {
         return salario * 12;
     }
 
-    public int getsalario(){
-        return salario + (salario * 10) / 100 ;
+    public int getsalario(int percentage){
+        return salario + (salario * percentage) / 100 ;
     }
 
     public String toString(){
         return String.format ("Employee: ID: %d , Primeiro Nome: %s , Ultimo Nome: %s , Salario: %d",
-                id , primeiro , ultimo , getsalario());
+                id , primeiro , ultimo , getsalario(10));
     }
 
 }
